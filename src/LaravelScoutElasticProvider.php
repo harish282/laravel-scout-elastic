@@ -22,7 +22,7 @@ class LaravelScoutElasticProvider extends ServiceProvider
                     ->setHosts(config('scout.elasticsearch.hosts'));
             $auth = config('scout.elasticsearch.auth');
             if(is_array($auth) && !empty($auth['user'])){
-                $builder->setBasicAuthentication($auth['user'], $auth['password'])
+                $builder->setBasicAuthentication($auth['user'], $auth['password']);
             }
                     
             return new ElasticsearchEngine(
