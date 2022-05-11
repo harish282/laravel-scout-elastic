@@ -1,7 +1,5 @@
 # Laravel Scout Elasticsearch Driver
 
-[![Latest Stable Version](https://poser.pugx.org/tamayo/laravel-scout-elastic/v)](//packagist.org/packages/tamayo/laravel-scout-elastic) [![Total Downloads](https://poser.pugx.org/tamayo/laravel-scout-elastic/downloads)](//packagist.org/packages/tamayo/laravel-scout-elastic) [![License](https://poser.pugx.org/tamayo/laravel-scout-elastic/license)](//packagist.org/packages/tamayo/laravel-scout-elastic) ![Build Status](https://travis-ci.org/ErickTamayo/laravel-scout-elastic.svg?branch=master)
-
 This package provides a [Elasticsearch](https://www.elastic.co/products/elasticsearch) driver for Laravel Scout.
 
 ## Contents
@@ -16,7 +14,7 @@ This package provides a [Elasticsearch](https://www.elastic.co/products/elastics
 You can install the package via composer:
 
 ```bash
-composer require tamayo/laravel-scout-elastic
+composer require sohamgreens/laravel-scout-elastic
 ```
 
 Laravel will automatically register the driver service provider.
@@ -73,11 +71,6 @@ Now you can use Laravel Scout as described in the [Laravel Scout official docume
 
 **Identifying Users**
 Currrently user identification is not supported.
-
-## Credits
-
-- [Erick Tamayo](https://github.com/ericktamayo)
-- [All Contributors](../../contributors)
 
 ## License
 
